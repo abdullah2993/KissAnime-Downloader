@@ -7,7 +7,6 @@ import bs4
 import cfscrape
 import wget
 import re
-from threading import Thread
 
 BASE_LINK = 'http://kissanime.ru'
 

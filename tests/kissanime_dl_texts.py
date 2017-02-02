@@ -2,7 +2,7 @@
 Unit tests for kissanime
 """
 import unittest
-from kissanime.kissanime_dl import KissAnime
+from kissanime_dl import KissAnime
 
 
 class KissAnimeTests(unittest.TestCase):
