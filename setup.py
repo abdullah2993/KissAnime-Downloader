@@ -1,7 +1,7 @@
 """
 Setup file for KissAnime_DL
 """
-from distutils.core import setup
+from setuptools import setup
 
 setup(
     name='KissAnime Downloader',
@@ -12,5 +12,6 @@ setup(
     author_email='a.saleem2993@gmail.com',
     url='https://github.com/Abdullah2993/KissAnime-Downloader',
     license='MIT',
-    keywords=['kissanime', 'download', 'downloader', 'anime', 'video']
+    keywords=['kissanime', 'download', 'downloader', 'anime', 'video'],
+    install_requires=['beautifulsoup4', 'cfscrape', 'wget']
 )

@@ -24,7 +24,7 @@ Clone the repository
 
 Install dependencies
 
-`pip install -r Requiments.txt`
+`pip install -r Requirments.txt`
 
 Run
 
