@@ -1,4 +1,4 @@
-# KissAnime Downloader
+# KissAnime Downloader [![Build Status](https://travis-ci.org/Abdullah2993/KissAnime-Downloader.svg?branch=master)](https://travis-ci.org/Abdullah2993/KissAnime-Downloader)
 A python script that lets you download anime episodes from KissAnime
 ## Usage
 ```
