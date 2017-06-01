@@ -1,3 +1,4 @@
+#!/usr/bin/python
 """
 Setup file for KissAnime_DL
 """
@@ -5,7 +6,7 @@ from setuptools import setup
 
 setup(
     name='KissAnime Downloader',
-    version='0.1',
+    version='0.1.1',
     scripts=['kissanime_dl.py'],
     description='Download anime episodes from KissAnime',
     author='Abdullah Saleem',

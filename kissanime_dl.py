@@ -1,12 +1,14 @@
+#!/usr/bin/python
 """
-Download anime from http://KissAnime.to
+Download anime from http://KissAnime.ru
 """
-from argparse import ArgumentParser
 import base64
+import re
+from argparse import ArgumentParser
+
 import bs4
 import cfscrape
 import wget
-import re
 
 BASE_LINK = 'http://kissanime.ru'
 
@@ -65,7 +67,8 @@ class KissAnime(object):
 
     @staticmethod
     def _get_ep_no(title):
-        match = re.match(r".*?((?P<ep1>\d+)(-(?P<ep2>\d+))?)$", title)
+        print title
+        match = re.match(r".*?((?P<ep1>\d+)(-(?P<ep2>\d+))?)", title)
         assert match
         groups = match.groupdict()
         if groups['ep2'] is not None:
