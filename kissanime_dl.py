@@ -95,7 +95,7 @@ if __name__ == '__main__':
     PARSER.add_argument("-q", "--quality", help="Video Quality",\
      choices=['360p', '480p', '720p', '1080p'], default="360p")
     PARSER.add_argument("-v", "--verbose", action="store_false")
-    PARSER.add_argument("-e", "--episodes", nargs="+", type=str)
+    PARSER.add_argument("-e", "--episodes", required=True, nargs="+", type=str)
     ARGS = PARSER.parse_args()
     LINK = ARGS.link
     if ARGS.name:
